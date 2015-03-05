@@ -7,6 +7,4 @@ var isForim = confirm("that was fun");
 
 window.alert(isForim);
 
-
-
 }
