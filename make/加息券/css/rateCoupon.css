@@ -1,0 +1,313 @@
+@charset"UTF-8";
+.hzAll{
+    background: #f2f2f2;
+}
+.header{
+    background: #ffffff;
+}
+.container{
+    width: 1190px;
+}
+.hztit {
+    height: 34px;
+    font-size: 14px;
+    padding-top: 12px;
+    line-height: 34px;
+}
+.rateContent{
+    width: 92%;
+    padding: 50px 50px 40px 39px;
+    border: 1px solid #e5e5e5;
+    background: #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 40px;
+}
+.lendinformation{
+    width: 100%;
+    height: 25px;
+}
+.lendinformation span{
+    display: inline-block;
+    width: 10%;
+    font-size: 20px;
+    color: #333333;
+    float: left;
+}
+.lendinformation em{
+    float: right;
+    display: inline-block;
+    width: 90%;
+    height: 12px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.leninforBottom,.leninforBottom1{
+    width: 91%;
+    padding: 0 50px;
+    margin-top: 16px;
+}
+.leninforBottom ul,.leninforBottom1 ul{
+    font-size: 16px;
+}
+.leninforBottom ul li{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.leninforBottom ul li p{
+    height: 38px;
+    line-height: 38px;
+}
+.leninforBottom ul li p span.left{
+    display: inline-block;
+    width: 43%;
+    color: #929292;
+    text-align: right;
+}
+.leninforBottom ul li p span.right{
+    display: inline-block;
+    width: 52%;
+    padding-left:3%;
+    color: #333333;
+    text-align: left;
+}
+.leninforBottom1 ul li{
+    width: 314px;
+    float: left;
+    position: relative;
+}
+.leninforBottom1 ul li em{
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    right: -14px;
+    top: -15px;
+    position: absolute;
+}
+.leninforBottom1 ul li em.num1{
+    background: url("../images/button-icon_03.png") no-repeat center;
+}
+.leninforBottom1 ul li i.select{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: -13px;
+    right: -13px;
+    background: url("../images/selected11.png") no-repeat center;
+}
+.leninforBottom1 ul li em.select1{
+    background: url("../images/selected_03.png") no-repeat center;
+}
+.leninforBottom1 ul li em.num2{
+    background: url("../images/button-icon-yellow_06.png") no-repeat center;
+}
+.leninforBottom1 ul li em.select2{
+    background: url("../images/selected2_03.png") no-repeat center;
+}
+.leninforBottom1 ul li em.num3{
+    background: url("../images/button-icon-blue_09.png") no-repeat center;
+}
+.leninforBottom1 ul li em.select3{
+    background: url("../images/selected3_06.png") no-repeat center;
+}
+.leninforBottom1 ul li.marL5{
+    margin-left: 5px;
+}
+.leninforBottom1 ul li.marL{
+    margin-left: 20px;
+}
+.leninforBottom1 ul li h3{
+    width: 100%;
+    height: 60px;
+    background: url("../images/rateCoupon_03.jpg") no-repeat center;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.leninforBottom1 ul li .content{
+    width: 312px;
+    margin-top: -1px\9;
+    border: 1px solid #ff8f62;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+}
+.leninforBottom1 ul li .content-yellow{
+    border: 1px solid #ffd11c;
+    border-top: none;
+}
+.leninforBottom1 ul li .content-blue{
+    border: 1px solid #6ac4ff;
+    border-top: none;
+}
+.leninforBottom1 ul li h3.tit-yellow{
+    background: url("../images/rateCoupon-yellow_03.jpg") no-repeat center;
+}
+.leninforBottom1 ul li h3.tit-blue{
+    background: url("../images/rateCoupon-blue_06.jpg") no-repeat center;
+}
+.bgpic .one-yellow{
+    color: #ffd11c
+}
+.leninforBottom1 ul li .content .bgpic{
+    width: 100%;
+    height: 105px;
+    background: url("../images/bg-rateCoupon_03.jpg") no-repeat center;
+}
+.bgpic .one{
+    font-size: 52px;
+    color: #f64057;
+    text-align: center;
+    line-height: 78px;
+    font-family: HelveticaNeueLt;
+}
+.bgpic .one i{
+    display: inline-block;
+    vertical-align:top;
+    font-style: normal;
+    font-size: 42px;
+}
+.bgpic .two{
+    width: 282px;
+    padding: 0px 15px;
+    font-size: 14px;
+    color: #929292;
+    line-height: 28px;
+    height: 28px;
+}
+.bgpic .two p{
+    /*display: inline-block;*/
+    width: 50%;
+    float: left;
+    /*text-align: center;*/
+}
+.bgpic .two p span{
+    display: inline-block;
+}
+.botTit{
+    width: 282px;
+    background: #f7f7f7 ;
+    color: #ff8f62;
+    line-height: 20px;
+    font-size: 13px;
+    border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    padding: 10px 15px;
+}
+.botTit span{
+    display: block;
+}
+.botTit .left{
+    width: 60px;
+    display: block;
+    height: 40px;
+    float: left;
+}
+.botTit .right i{
+    display: inline-block;
+    width: 222px;
+    /*color: #ff8f62;*/
+    font-style: normal;
+    line-height: 20px;
+    font-size: 13px;
+    float: left;
+}
+
+/*分页*/
+.iconPage{
+    height: 90px;
+    text-align: right;
+    margin-top: 40px;
+    font-size: 16px;
+    margin-right: 50px;
+}
+.iconPage span{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.iconPage span.on{
+    background: #3fc6ff;
+    color: #ffffff;
+}
+.iconPage a{
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /*background: #f2f2f2;*/
+    color: #3fc6ff;
+}
+.marL30{
+    margin-left: 30px;
+}
+
+
+
+.agreement{
+    text-align: center;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}
+.agreement input{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+.agreement span{
+    color: #34c5ff;
+    cursor: pointer;
+}
+.btnValue{
+    width: 342px;
+    height: 40px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.btnValue a{
+    width: 150px;
+    height: 38px;
+    border: 1px solid #36b0ff;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 17px;
+}
+.btnValue .sure{
+    background: #36b0ff;
+    color: #fff;
+}
+.btnValue .cancle{
+    background: #fff;
+    color: #36b0ff;
+}
+.marT25{
+    margin-top: 25px;
+}

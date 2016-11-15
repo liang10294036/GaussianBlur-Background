@@ -1,0 +1,24 @@
+.sixImg {
+  margin: 0 auto;
+  margin-top: 23px;
+  margin-bottom: 17px;
+  width: 235px;
+  height: 195px;
+  background: url(../img/hongbao.png) no-repeat center center;
+}
+.c-right {
+  height: 365px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+.c-right h3 {
+  font-size: 21px;
+  font-weight: 400;
+  color: #e54a62;
+  margin-bottom: 20px;
+}
+.c-right p {
+  color: #7e7e7e;
+  font-size: 18px;
+  font-weight: 200;
+}

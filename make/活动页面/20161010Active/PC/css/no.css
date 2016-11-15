@@ -1,0 +1,16 @@
+.noImg {
+  width: 280px;
+  height: 18px;
+  background: url(../img/none.png) no-repeat center top;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 180px;
+  margin-top: 84px;
+  margin-bottom: 80px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #999999;
+}
+.c-right {
+  margin-bottom: 64px;
+}

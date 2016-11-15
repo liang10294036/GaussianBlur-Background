@@ -1,0 +1,653 @@
+@charset "utf-8";
+/* 
+* @Author: yb
+* @Date:   2016-09-13 09:24:36
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-14 13:26:44
+*/
+.center-logIn{
+    width: 100%;
+    height: 645px;
+    background:url('../images/banner-bj.jpg') no-repeat top center;
+}
+.person-logIn{
+    background:url('../images/banner-bj1.jpg') no-repeat top center;
+}
+/*left 二维码*/
+.center-logIn .logInBox {
+    width: 1200px;
+    /*height: 640px;*/
+    margin: 0 auto;
+}
+.logInLeft{
+    width: 420px;
+    height: 320px;
+    float: left;
+    margin-top: 92px;
+    margin-left: 116px;
+}
+.logInLeft h4{
+    width: 343px;
+    height:95px;
+    background: url('../images/enterh4.png') no-repeat;
+    margin-bottom:40px;
+}
+.logInLeft .AppDown{
+    width: 186px;
+    height:222px;
+    float: left;
+}
+.logInLeft .WeChatCode{
+    width: 186px;
+    height:222px;
+    float: right;
+}
+/*right 登录框*/
+.logInRight{
+    /*width:370px;*/
+    /*height:484px;*/
+    margin:60px 0px 0px 0;
+    /*padding:0 30px;*/
+    background:#fff;
+    float: right;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.logInRight .box-title{
+    height:50px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color:#0c4e9e;
+}
+/*注册*/
+#my-register{
+    width: 320px;
+    padding: 0 30px 30px 30px;
+}
+#my-counselor{
+    width: 320px;
+    padding: 0 30px 25px 30px;
+}
+#my-logIn{
+    width: 320px;
+    padding: 0 30px 134px 30px;
+}
+.register-box .box-title{
+    margin-bottom: 25px;
+}
+.box-title li{
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.hzRegistered{
+    background: #515556;
+    color: #ffffff;
+    float: left;
+}
+.logInRight .user-login{
+    float: right;
+    border-radius: 0px 5px 0px 0px;
+    -webkit-border-radius: 0px 5px 0px 0px;
+    -o-border-radius: 0px 5px 0px 0px;
+}
+.logInRight .account-number{
+    float:right;    
+    line-height:60px;
+}
+.logInRight .account-number a{
+    color:#0c4e9e;
+}
+.input-box{
+    width:360px;
+    height:42px;
+}
+.marTop{
+    margin-top: 20px;
+}
+.register-box{
+    width: 420px;
+}
+.register-box form{
+    display: none;
+}
+.input-box input{
+    width:350px;
+    height:40px;
+    padding-left: 9px;
+    border:1px solid #ccc;
+    font-size:14px;
+    color:#666666;
+    line-height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/*.input-box input.phone{*/
+    /*/!*background:url('../images/phone-ico.jpg') no-repeat;*!/*/
+/*}*/
+.input-box{
+    position: relative;
+}
+.my-password{
+    width: 26px;
+    height: 21px;
+    position: absolute;
+    background: pink;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.password-eye{
+
+    background: url("../images/password-eye.png") no-repeat center;
+
+}
+.openword-eye{
+    background: url("../images/close-eye.png") no-repeat center;
+}
+.inputError{
+    background:url('../images/error-ico.jpg') no-repeat left center;
+    font-size: 12px;
+    line-height: 20px;
+    color:#ef586d;
+    padding-left:16px;
+    margin-bottom: 5px;
+    width: 96%
+}
+/*验证码*/
+.input-box input.verify{
+    /*background:url('../images/verify-ico.png') no-repeat;*/
+    position: absolute;
+    left: 0;
+    top:0;
+}
+/*短信验证*/
+.input-box input.phone-verify{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.input-box input.referrer{
+    /*background:url('../images/user-ico.png') no-repeat;*/
+}
+.verify-box{
+    position:relative;
+}
+/*验证码*/
+.verify-box .verify-img{
+    width:91px;
+    height:40px;
+    position: absolute;
+    top:1px;
+    right:-1px;
+    cursor: pointer;
+    background: #dadada;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+}
+/*短信验证*/
+.verify-box .verify-text{
+    width:100px;
+    height:20px;
+    display: block;
+    position: absolute;
+    top:13px;
+    right:1px;
+    text-align: center;
+    border-left:1px solid #ccc;
+}
+.verify-box .verify-text a{
+    color:#2f5fa5;
+}
+/*验证码错误提示*/
+.verify-box .inputError{
+    position: absolute;
+    left: 0;
+    bottom:-25px;
+}
+.logIn-btn{
+    width:360px;
+    height:42px;
+    cursor:pointer;
+    outline: none;
+    border:none;
+    background-color: #3fc6ff;
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.box-bottom{
+    width:360px;
+    height:20px;
+    font-size: 12px;
+}
+.box-bottom span{
+    float: left;
+}
+.box-bottom em{
+    font-style: normal;
+}
+.box-bottom a{
+    float: right;
+    color:#2f5fa5;
+}
+.input-box .recommend{
+    height: 35px;
+}
+.input-box .recommend .ponter-bot{
+    display: inline-block;
+    width: 25px;
+    height: 21px;
+    background: url("../images/ponter-bot.png") no-repeat 5px 10px;
+    cursor: pointer;
+}
+/*营业部下啦*/
+.input-box select{
+    width: 114px;
+    height:30px;
+    border:1px solid #cccccc;
+    font-size: 14px;
+    color:#666666;
+    font-family: "微软雅黑", "Microsoft YaHei";
+}
+.input-box select option{
+    background: #fff;!important;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+}
+.input-box select option:hover{
+    background: #f4f4f4;
+}
+.input-box select.ml8{
+    margin-left: 5px;
+}
+/*重置密码*/
+.conter-box{
+    width: 100%;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.RetrievePW-box{
+    width:1200px;
+    height: 550px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+.RetrievePW-box h2{
+    height:96px;
+    line-height: 96px;
+    text-align: center;
+    color:#034ca0;
+    font-size: 28px;
+    font-weight: normal;
+    border-bottom: 1px dashed #ccc;
+    margin:0 20px;
+}
+/*重置密码内容*/
+.RetrievePW-content{
+    width:620px;
+    height:450px;
+    margin:0 auto;
+}
+.RetrievePW-content .RetrievePW-step{
+    width:620px;
+    height:80px;
+    margin:20px 0 60px;
+}
+.RetrievePW-content .RetrievePW-step1{background: url(../images/step1.png) no-repeat;}
+.RetrievePW-content .RetrievePW-step2{background: url(../images/step2.png) no-repeat;}
+/*.RetrievePW-content .RetrievePW-step3{background: url(../images/step3.png) no-repeat;}*/
+
+.verify-input{
+    width:370px;
+    height:68px;
+    margin:0 auto;
+    position: relative;
+    left: 0;
+    top:0;
+}
+.verify-input .input-text{
+    width:90px;
+    height:46px;
+    color:#444;
+    font-size: 14px;
+    line-height: 46px;
+    padding-left: 20px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.verify-input input{
+    width:358px;
+    height:46px;
+    padding-left: 10px;
+    border:1px solid #ccc;
+    font-size:14px;
+    color:#666666;
+    line-height: 46px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/*找回密码身份验证 验证码*/
+.verify-input .verify-code{
+    width:358px;
+}
+/*验证码图片*/
+.verify-input .verify-code-img{
+    width:114px;
+    height:46px;
+    border:1px solid #ccc;
+    position: absolute;
+    top:0;
+    right: 0;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+}
+/*手机验证码*/
+.verify-input .verify-phoneCode{
+    width:114px;
+    height:24px;
+    border-left:1px solid #ccc;
+    position: absolute;
+    top:12px;
+    right: 0;
+    line-height: 24px;
+    text-align: center;
+    text-decoration:underline;
+    color:#0c4e9e;
+    font-size:14px;
+}
+/*错误提示*/
+.verify-input .inputError{
+    background: url('../images/error-ico.jpg') no-repeat left center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ef586d;
+    padding-left: 16px;
+}
+.verify-input .next-btn{
+    width: 370px;
+    height: 48px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #3fc6ff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.verify-input .next-btn a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+}
+.RetrievePW-succeed{
+    width:370px;
+    height:120px;
+    padding-top:20px;
+    margin:0 auto;
+    background:url('../images/succeed.png') no-repeat top center;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+    color:#000;
+}
+
+/*密码重置成功*/
+.RetrievePW-succeed{
+    width:370px;
+    height:120px;
+    padding-top:100px;
+    margin:0 auto;
+    background:url('../images/succeed.png') no-repeat top center;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+    color:#000;
+}
+.marginTop75{
+    margin-top: 75px;
+}
+/*注册成功*/
+.center-box{
+    width: 100%;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.center-box .login-succeedBox{
+    width:1200px;
+    height: 550px;
+    margin: 20px auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+.login-succeedBox .login-succeed{
+    width:620px;
+    height:150px;
+    margin:150px auto 0;
+    padding-top:100px;
+    background:url('../images/succeed.png') no-repeat top center;
+}
+.login-succeedBox .login-succeed h4{
+    line-height: 80px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: normal;
+}
+.login-succeedBox .login-succeed p{
+    color:#b5b5b5;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+}
+.login-succeedBox .login-succeed p a{
+    color:#0c4e9e;
+    text-decoration: underline;
+}
+
+/*我要出借部分页面*/
+.center-logIn-lend{
+    width: 100%;
+    height: 546px;
+    background: url("../images/hzLendbanner.jpg") no-repeat center;
+}
+.logInRight .lendTit{
+    width: 380px;
+    height: 82px;
+    position: relative;
+}
+.logInRight .lendTit h3{
+    position: absolute;
+    left: -6px;
+    top: 20px;
+    width:392px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    background: url("../images/hzLendTit.png") no-repeat center;
+}
+.center-logIn-lend .logInBox {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logInLeft-lend{
+    width: 649px;
+    height: 206px;
+    float: left;
+    margin-top: 151px;
+    background: url("../images/hzLend-word.png") no-repeat;
+}
+.register-box-lend{
+    width: 380px;
+    margin-top: 15px;
+}
+.input-box-lend input {
+    width: 311px;
+    height: 38px;
+    padding-left: 9px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #666666;
+    line-height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.logIn-btn-lend{
+    width: 320px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #3fc6ff;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.verify-img-lend{
+    width: 91px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    cursor: pointer;
+    background: #dadada;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+}
+/*特点*/
+.hzlendContainer{
+    width: 1190px;
+    margin: 0 auto;
+}
+.hzlendSpecial{
+    background: #fff;
+}
+.hzlendContainer ul{
+    width: 100%;
+}
+.hzlendSpecial-cont ul{
+    height:166px;
+    padding: 30px 20px 44px 20px;
+}
+.hzlendContainer ul li{
+    width: 25%;
+    float: left;
+}
+.hzlendContainer ul li dl dt{
+    width: 100%;
+    height: 98px;
+}
+.hzlendContainer ul li dl dt.hzbgPic1{
+    background: url("../images/icon-more_07.png") no-repeat center;
+}
+.hzlendContainer ul li dl dt.hzbgPic2{
+    background: url("../images/icon-ease_09.png") no-repeat center;
+}
+.hzlendContainer ul li dl dt.hzbgPic3{
+    background: url("../images/icon-quickly_11.png") no-repeat center;
+}
+.hzlendContainer ul li dl dt.hzbgPic4{
+    background: url("../images/icon-height_13.png") no-repeat center;
+}
+.hzlendContainer ul li dl dd{
+    text-align: center;
+}
+.hzlendContainer ul li dl dd.first{
+    font-size: 20px;
+    color: #004098;
+    margin-top: 20px;
+}
+.hzlendContainer ul li dl dd.second{
+    font-size: 16px;
+    color: #999999;
+    margin-top: 12px;
+}
+/*成功案例*/
+.hzSuccessAnli{
+    background: #f2f2f2;
+    padding-bottom: 40px;
+}
+.hzSuccessAnli .tit h3{
+    font-size: 26px;
+    color: #9f9f9f;
+    height: 62px;
+    line-height: 62px;
+    font-weight: normal;
+    padding-top: 12px;
+}
+.hzSuccessAnli .tit h3 span{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.hzSuccess-container{
+    width: 100%;
+    padding: 30px 0px;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.hzSuccessAnli-cont ul{
+    height: 348px;
+}
+.hzSuccess-container ul li{
+    width: 27.4%;
+    /*height: 340px;*/
+    float: left;
+    margin: 0px 35px;
+}
+.hzSuccess-container ul li dl dt{
+    width: 326px;
+    height: 170px;
+}
+.hzSuccess-container ul li dl dt.one{
+    background: url("../images/success-pic1_03.png") no-repeat center;
+}
+.hzSuccess-container ul li dl dt.two{
+    background: url("../images/succsee-pic2_05.png") no-repeat center;
+}
+.hzSuccess-container ul li dl dt.three{
+    background: url("../images/success-pic3_07.png") no-repeat center;
+}
+.hzSuccess-container ul li dl dd{
+    font-size: 24px;
+    color: #666666;
+    height: 45px;
+    margin-top: 20px;
+    text-align: left;
+}
+.hzSuccess-container ul li dl p{
+    font-size: 14px;
+    color: #666666;
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+}
+

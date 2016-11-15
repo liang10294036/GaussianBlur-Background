@@ -1,0 +1,9 @@
+$(function(){
+	$(".hide").click(function(){
+    	$(".hided").css("display","block");
+    })
+    $(".active").click(function(){
+    	$(".hided").css("display","block");
+    })
+    $(".Dcolor").children("td").addClass("Dcolor")
+})

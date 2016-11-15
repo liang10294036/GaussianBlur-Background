@@ -1,0 +1,55 @@
+body {font-family:"Œ¢»Ì—≈∫⁄",'Microsoft YaHei'; font-size:20px; background:#fff; word-break:break-all; color:#6e6b6b; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+table{ margin:0 auto; border-collapse:collapse;border-spacing:0}
+.clearfix:after {display:block; content:''; clear:both; visibility:hidden}
+.none {display:none}
+.clear{ clear:both;}
+.margin-center {margin:0 auto; text-align:center}
+a {color:#6e6b6b;text-decoration:none;}
+a:hover {color:#138f7c;}
+input, img {vertical-align:middle; border:0; }
+.hzXieyi{ width: 96%; margin: 0 auto;}
+.hzXieyiFafsa{ width: 100%; margin-top: -1px}
+.hzXieyiFafsa td{border: 1px solid #999; line-height: 50px; padding-left: 15px}
+.hzXieyiFafsa td input{margin: 0 5px}
+.hzXieyiFafsa .one{ width: 10%}
+.hzXieyiFafsa .two{ width: 15%}
+.hzXieyiTitle{ line-height: 60px; width: 100%; text-align: center; font-size: 30px}
+.hzXieyiP p{ line-height: 30px;}
+.hzXieyiSlogan{width: 100%; margin: 20px 0; text-align: right}
+.hzXieyiAllLogo{}
+.hzXieyiAll h1{line-height: 60px; width: 100%; text-align: center; font-size: 30px; clear: both}
+.hzXieyiAll h2{ line-height: 50px; font-size: 18px;}
+.hzXieyiAll p{ line-height: 50px; text-indent: 2em}
+.hzXieyiAlltable{ width: 100%;}
+.hzXieyiAlltable td{ line-height: 50px; border: 1px solid #999; width: 50%; padding-left: 15px; font-size: 16px}
+.hzXieyiAll p span{text-decoration: underline; display: inline-block; }
+.hzXieyiAllBottom{ width: 100%;; margin: 40px 0}
+.hzXieyiAllBottom p{ margin-left: 700px; line-height: 50px}
+.hzXieyiAllSlogan{ width: 100%; text-align: right; clear: both}
+/*…Í«Î È*/
+.hzXieyiApplication{width: 100%;}
+.hzXieyiApplication th{border: 1px solid #999; line-height: 50px; padding-left: 10px}
+.hzXieyiApplication td{border: 1px solid #999; line-height: 50px; padding-left: 10px}
+.hzXieyiApplication .one{width: 12%}
+.hzXieyiApplication .two{width: 12%}
+.hzXieyiApplication tr th{ text-align: left}
+.hzXieyiApplication input{ margin: 0 5px}
+.hzXieyiApplication .text1, .hzXieyiAll .text1{ border: 1px solid #999; display: inline-block; width: 20px; height: 20px; text-align: center}
+/*.hzXieyiAnTableBottom .l{ float: left; margin-left: 50px}
+.hzXieyiAnTableBottom .r{ float:right; margin-right: 150px}*/
+.hzXieyiAnTableBottom p{line-height: 36px}
+.hzXieyiAnCheckbox{clear: both}
+.hzXieyiAnCheckbox{width: 100%}
+.hzXieyiAnCheckbox h2{font-size: 20px; line-height: 46px}
+.hzXieyiAnCheckbox h3{ font-weight: normal; font-size: 18px; line-height: 36px}
+.hzXieyiAnCheckbox p{ line-height: 30px}
+.hzXieyiAnCheckbox input{ margin: 0 5px}
+.hzXieyiAllNone{ text-indent: 0!important;}
+.hzXieyiAlltable1{ width: 100%}
+.hzXieyiAlltable1 td, .hzXieyiAlltable1 th{ line-height: 50px; border: 1px solid #999; padding-left: 15px; font-size: 16px}
+.hzXieyiAllBorder{ width: 100%; border-bottom: 1px solid #000; height: 1px}
+.hzXieyichinaLogo img{ max-width:640px; width:100%}
+.hzXieyiAllSlogan img{ max-width:640px; width:100%}

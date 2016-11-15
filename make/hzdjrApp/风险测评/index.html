@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta name="wap-font-scale" content="no">
+    <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"/>
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no">
+    <title>风险测评</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="./js/zepto.min.js"></script>
+</head>
+<body>
+    <div class="mask">
+    </div>
+    <div class="maskContent">
+        <h3>提示</h3>
+        <p>选择跳过将默认为保守型，是否跳过？</p>
+        <div class="btnMask">
+            <a class="sure" href="javascript:;">确定</a>
+            <a class="cancle" href="javascript:;">取消</a>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="hzTitle">
+            <h3><a href="javasscript:;"></a>风险测评问卷</h3>
+        </div>
+        <form class="formCont" action="">
+            <div class="n1">
+                <div class="titleName">
+                    <h3>1.您目前所处的年龄阶段为：</h3>
+                </div>
+                <ul>
+                    <li>
+                        <input type="radio" name="age" value=""/><span>55岁以上</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="age" value=""/><span>40-55岁</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="age" value=""/><span>30-40岁</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="age" value=""/><span>30岁以下</span>
+                    </li>
+                </ul>
+                <div class="formBottom">
+                    <p>
+                        <a href="javascript:;" class="isSkip">跳过</a>
+                        <span>1</span>/10
+                    </p>
+                </div>
+            </div>
+            <div class="n2" style="display: none">
+                <div class="titleName">
+                    <h3>2.您可以投资的资金量： </h3>
+                </div>
+                <ul>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>5万元（含）以下</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>5万至10万（含）</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>10万至50万（含）</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>50万至100万（含）</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>100万以上</span>
+                    </li>
+                </ul>
+                <div class="formBottom">
+                    <p>
+                        <a href="javascript:;">上一题</a>
+                        <span>2</span>/10
+                    </p>
+                </div>
+            </div>
+            <div class="n3" style="display: none">
+                <div class="titleName">
+                    <h3>3.您的投资目的是什么？ </h3>
+                </div>
+                <ul>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>超过通货膨胀就好（每年5%左右）</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>获取较稳定收益（每年10%左右）</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>获取较高收益（每年20%左右）</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>博取高收益（每年30% 以上）</span>
+                    </li>
+                </ul>
+                <div class="formBottom">
+                    <p>
+                        <a href="javascript:;">上一题</a>
+                        <span>3</span>/10
+                    </p>
+                </div>
+            </div>
+            <div class="n4" style="display: none">
+                <div class="titleName">
+                    <h3>4.您一般投资的期限为：</h3>
+                </div>
+                <ul>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>1年以内</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>1-3年（包括3年）</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>3-5年（包括5年）</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>5年以上</span>
+                    </li>
+                </ul>
+                <div class="formBottom">
+                    <p>
+                        <a href="javascript:;">上一题</a>
+                        <span>4</span>/10
+                    </p>
+                </div>
+            </div>
+            <div class="n5" style="display: none">
+                <div class="titleName">
+                    <h3 style="font-size: 27px;">5.您投资时，能接受一年内的最大损失是多少？</h3>
+                </div>
+                <ul>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>损失10%以内</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>损失10%~30%间</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>损失30%~50%间</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>损失50%以上</span>
+                    </li>
+                </ul>
+                <div class="formBottom">
+                    <p>
+                        <a href="javascript:;">上一题</a>
+                        <span>5</span>/10
+                    </p>
+                </div>
+            </div>
+            <div class="n6" style="display: none">
+                <div class="titleName">
+                    <h3 style="font-size: 27px;">6.某投资项目未来3年里平均收益、最好和最坏的收益情况如下，您会选择哪种？</h3>
+                </div>
+                <ul style="font-size: 22px;">
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>平均年收益率为2%，最好情况5%，最坏情况1%</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>平均年收益率为6%，最好情况12%，最坏情况-10%</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>平均年收益率为8%，最好情况15%，最坏情况-20%</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>平均年收益率为10%，最好情况20%，最坏情况-30%</span>
+                    </li>
+                </ul>
+                <div class="formBottom">
+                    <p>
+                        <a href="javascript:;">上一题</a>
+                        <span>6</span>/10
+                    </p>
+                </div>
+            </div>
+            <div class="n7" style="display: none">
+                <div class="titleName">
+                    <h3 style="font-size: 27px;">7.您家庭的年收入？</h3>
+                </div>
+                <ul>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>10万元（含）以下</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>10万至30万（含）</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>30万至50万（含）</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>50万以上</span>
+                    </li>
+                </ul>
+                <div class="formBottom">
+                    <p>
+                        <a href="javascript:;">上一题</a>
+                        <span>7</span>/10
+                    </p>
+                </div>
+            </div>
+            <div class="n8" style="display: none">
+                <div class="titleName">
+                    <h3 style="font-size: 27px;">8.您预计家庭的年收入在未来5年中将：</h3>
+                </div>
+                <ul>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>有所下降</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>维持稳定</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>小幅成长，在10%左右</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>大幅成长，在20%以上</span>
+                    </li>
+                </ul>
+                <div class="formBottom">
+                    <p>
+                        <a href="javascript:;">上一题</a>
+                        <span>8</span>/10
+                    </p>
+                </div>
+            </div>
+            <div class="n9" style="display: none">
+                <div class="titleName">
+                    <h3 style="font-size: 27px;">9.您家庭的月生活消费支出约占月总收入的：</h3>
+                </div>
+                <ul>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>71%-100%以上</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>51%-70%</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>21%-50%</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>0-20%</span>
+                    </li>
+                </ul>
+                <div class="formBottom">
+                    <p>
+                        <a href="javascript:;">上一题</a>
+                        <span>9</span>/10
+                    </p>
+                </div>
+            </div>
+            <div class="n10" style="display: none">
+                <div class="titleName">
+                    <h3 style="font-size: 27px;">10.您曾投资过的风险最高的产品是：</h3>
+                </div>
+                <ul style="font-size: 18px;">
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>储蓄、银行理财产品、货币基金等风险极小的现金管理工具</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>债券或债券类基金、固定收益信托等</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>股票或股票型基金</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="amount" value=""/><span>期货或期货类基金、PE、房地产基金、艺术品基金等另类投资产品</span>
+                    </li>
+                </ul>
+                <div class="formBottom">
+                    <p>
+                        <a href="javascript:;">上一题</a>
+                        <span>10</span>/10
+                    </p>
+                </div>
+                <div class="btnSubmit">
+                    <button>提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    $(function(){
+        $('.isSkip').on('click',function(){
+            $('.mask,.maskContent').css('display','block');
+        })
+        $('.sure,.cancle').on('click',function(){
+            $('.mask,.maskContent').css('display','none');
+        })
+    })
+</script>
+<!--<script src="./js/measurement.js"></script>-->
+</html>

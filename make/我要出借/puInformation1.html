@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <title>汇中大金融 - 网络借贷信息中介平台</title>
+    <meta name="keywords" content="汇中大金融,互联网金融公司排名,互联网金融产品">
+    <meta name="description" content="汇中大金融,互联网金融公司排名,互联网金融产品，这里提供全面互联网金融相关专业知识，为用户解答投资理财方面相关问题，排除不安全因素，理财投资更放心，选择汇中大金融。">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css"href="css/base.css">
+    <link rel="stylesheet" type="text/css"href="css/lend.css">
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+
+<!--弹框开始-->
+<div class="inforMask">
+</div>
+<!--图片弹窗部分-->
+<div class="inforWindow">
+    <div class="contentImg">
+        <a class="arrow left" href="javascript:void(0)"> <span></span> </a>
+        <a class="arrow right" href="javascript:void(0)"> <span></span> </a>
+        <div class="card">
+            <ul class="flashImg">
+                <li><img src="./images/success-pic1_03.png" alt=""/>1</li>
+                <li><img src="./images/success-pic3_07.png" alt=""/>2</li>
+                <li><img src="./images/succsee-pic2_05.png" alt=""/>3</li>
+            </ul>
+        </div>
+    </div>
+    <div class="inforClose"><a href="javascript:;">×</a></div>
+</div>
+<!--提示信息部分-->
+<div class="promptInfor">
+    <h3>提示 <span class="rR">×</span></h3>
+    <p>你尚未完成实名认证，请先完成认证。</p>
+    <div class="selectedIn">
+        <a href="javascript:;" class="goCertifi">去认证</a>
+        <a href="javascript:;" class="nextSay">下次再说</a>
+    </div>
+</div>
+<!--提示出借信息部分-->
+<div class="hzlendInfor">
+    <h3>提示 <span class="rR">×</span></h3>
+    <div class="hzlendcon clearfix">
+        <dl class="lL one">
+            <dt><span class="lL cor9">项目名称</span><span class="rR cor3">无忧出借计划 1个月</span></dt>
+            <dd><span class="lL cor9">还款方式</span><span class="rR cor3">等额本息</span></dd>
+            <dd><span class="lL cor9">出借年利率</span><span class="rR cor3">14.22%</span></dd>
+        </dl>
+        <dl class="lL">
+            <dt><span class="lL cor9">出借金额</span><span class="rR cor3">247.88元</span></dt>
+            <dd><span class="lL cor9">出借期限</span><span class="rR cor3">12个月</span></dd>
+            <dd><span class="lL cor9">出借年化收益</span><span class="rR cor3">14.22元</span></dd>
+        </dl>
+    </div>
+    <div class="isAgree">
+        <p class="isSet">需勾选并同意才可出借</p>
+        <p class="agree"><input type="checkbox" checked="checked"/>同意 <a href="javascript:;" target="_blank">《出借咨询与服务协议》</a> <a href="javascript:;" target="_blank">《借款协议》</a></p>
+    </div>
+    <div class="isSure">
+        <a class="sure" href="javascript:;" class="goCertifi">确定出借</a>
+        <a class="cancle" href="javascript:;" class="nextSay">取消</a>
+    </div>
+</div>
+<!--弹框结束-->
+
+<div class="hzAll">
+    <!--头部信息-->
+    <div class="header">
+        <div class="hzTit clearfix">
+            <div class="container">
+                <div class="left lL">服务热线：400-833-9921</div>
+                <div class="right rR">
+                    <ul>
+                        <span >
+                            <li>
+                                <a href="#"><input class="registered" type="button" value="登录"/></a>
+                            </li>
+                            <li>|</li>
+                            <li>
+                                <input class="login" type="button" value="注册"/>
+                            </li>
+                        </span>
+                        <li class="hzAdmin" style="display: none">欢迎您，<a href="javascript:;">135****2222</a></li>
+                        <li>|</li>
+                        <li><a href="#">退出</a></li>
+                        <li>|</li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li>|</li>
+                        <li><a href="#">关于我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hzLogo container clearfix">
+            <a href="#"><div class="left lL">汇中大金融</div></a>
+            <span class="slogan"></span>
+            <div class="right rR">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);" class="bot-line active showColor">首页</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="bot-line">我要投资</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="on">我要借款<i></i></a>
+                        <div class="triangle_border_up">
+                            <span class="special"></span>
+                        </div>
+                        <ul class="ulItem" style="display: none">
+                            <li  class="firstList">
+                                <a href="javascript:void(0);">出借计划</a>
+                            </li>
+                            <li><a href="javascript:void(0);">普享标</a></li>
+                            <li  class="boederNone"><a href="javascript:void(0);">债权转让</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="bot-line">安全保障</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="bot-line">
+                            <em></em>
+                            我的账户
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div><!--header-->
+    <!--中间内容-->
+    <div class="center">
+        <div class="containerLend marBot20 clearfix">
+            <div class="hztit"><a href="javascript:;">我要出借</a> > <a href="javascript:;">普享标</a> > <a href="javascript:;">详情</a></div>
+            <div class="conterLeft lL">
+                <div class="pruductName">
+                    <ul>
+                        <li class="first">
+                            <dl class="showTishi">
+                                <dt>普享标16100800001</dt>
+                                <dd class="nu1">
+                                    <ul>
+                                        <li class="one">
+                                            <p>14.22<i>%</i></p>
+                                            <span>出借年化利率</span>
+                                        </li>
+                                        <li class="two">
+                                            <p>12</p>
+                                            <span>出借期限（月）</span>
+                                        </li>
+                                        <li class="three">
+                                            <p>1,990.00</p>
+                                            <span>剩余可投</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                                <dd class="nu2">还款方式：按月付息，到期还本
+                                    <span class="warmPro">
+                                        <div class="warmPuxing">
+                                            <div class="triangle_border_down">
+                                                <span></span>
+                                            </div>
+                                            <p>此年化利率不同于收益率，您选择的借款标的按照等额本息的还款方式返还给您，每个月您都会收回部分本金，正在被借款人使用的本金在不断减少，如果希望达到此利率的收益，则只需要将您每月收回的本金部分投出至新的标的即可</p>
+                                        </div>
+                                    </span>
+                                </dd>
+                                <dd class="nu3">保障方式：质保服务专享保障计划 <a href="#">（查看详情）</a></dd>
+                            </dl>
+                        </li>
+                        <li class="hking">
+                            <img src="./images/lending-icon_03.png" alt=""/>
+                            <a href="javascript:;">去看看其他项目吧>></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="detailSpecial">
+                    <ul>
+                        <li>
+                            <img src="./images/icon-special_03.png" alt=""/>
+                            <p class="n1">项目发售时间固定</p>
+                            <p class="n2">提前做好投资计划</p>
+                        </li>
+                        <li>
+                            <img src="./images/icon-special1_05.png" alt=""/>
+                            <p class="n1">多种资产分散投资</p>
+                            <p class="n2">跨界创新把握商机</p>
+                        </li>
+                        <li>
+                            <img src="./images/icon-special2_07.png" alt=""/>
+                            <p class="n1">精挑细选严格把关</p>
+                            <p class="n2">帮您精选最优资产</p>
+                        </li>
+                        <li class="last">
+                            <img src="./images/icon-special3_09.png" alt=""/>
+                            <p class="n1">合作机构本息保障</p>
+                            <p class="n2">结构化设计更安全</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="detailContent">
+                    <ul class="tabs">
+                        <li class="tab-item active">借款详情</li>
+                        <li class="tab-item">还款计划</li>
+                        <li class="tab-item">出借记录</li>
+                    </ul>
+                    <div class="del_content">
+                        <ul>
+                            <li class="main selected proInstru clearfix">
+                                <div class="proPrin">
+                                    <dl>
+                                        <dt>项目介绍</dt>
+                                        <dd class="first">
+                                            <p>无忧出借计划是公司推出的已投资平台上优先标的、简化用户挑选、并提供文件收益的只能投标产品，平台通过多层风控把关，严格的标的筛选，通过分散投标，降低出借风险，最大化用户的资金使用率，保障用户达成预期收益率。</p>
+                                            <p>购买无忧出借计划产品之后，资金无闲置立即开始投标，标的的投满审核通过后，即进入出借锁定期，出借锁定期1个月后，本金收益一并返还到出借账户中。</p>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>项目详情</dt>
+                                        <dd>
+                                            <p>借款金额<span>20,200,000元</span></p>
+                                            <p>借款期限<span>12个月</span></p>
+                                            <p>出借条件<span>1000元起投，按100元的整数倍递增</span></p>
+                                            <p>计息时间<span>放款日次日计息</span></p>
+                                            <p>还款方式<span>按月付息，到期还本</span></p>
+                                            <p>债权转让<span>不可转让</span></p>
+                                            <p>相关费用<span>无认购费、管理费</span></p>
+                                            <p>保障机制<span>风险金保障</span></p>
+                                            <p>协议样本<span><a href="javascript:;">《出借与咨询服务协议》</a><a href="javascript:;">《借款协议》</a></span></p>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>基础信息</dt>
+                                        <dd class="borrowImg">
+                                            <table>
+                                                <tr>
+                                                    <td class="wid1">信用评级</td>
+                                                    <td class="wid2">A</td>
+                                                    <td class="wid1">所在城市</td>
+                                                    <td class="wid2">辽宁省沈阳市</td>
+                                                    <td class="wid1">身份证号</td>
+                                                    <td class="wid2">152***************</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="wid1">年  收 入</td>
+                                                    <td class="wid2">32万</td>
+                                                    <td class="wid1">姓       名</td>
+                                                    <td class="wid2">刘**</td>
+                                                    <td class="wid1">性别</td>
+                                                    <td class="wid2">男</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="wid1">年龄</td>
+                                                    <td class="wid2">32</td>
+                                                    <td class="wid1">资产负债</td>
+                                                    <td class="wid2">无</td>
+                                                    <td class="wid1">还账来源</td>
+                                                    <td class="wid2">工资</td>
+                                                </tr>
+                                            </table>
+                                            <img src="./images/icon-pass_03.png" alt=""/>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>审查资料</dt>
+                                        <dd class="last">
+                                            <ul class="reveInfor">
+                                                <li>
+                                                    <img src="./images/icon-idcard_03.png" alt=""/>
+                                                    <p class="lL">身份证</p>
+                                                    <a href="javascript:;">查看</a>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/icon-work_05.png" alt=""/>
+                                                    <p class="lL">工作证明</p>
+                                                    <a href="javascript:;">查看</a>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/icon-house_07.png" alt=""/>
+                                                    <p class="lL">房产证明</p>
+                                                    <a href="javascript:;">查看</a>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/icon-idcard_03.png" alt=""/>
+                                                    <p class="lL">征信报告</p>
+                                                    <a href="javascript:;">查看</a>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/icon-location_12.png" alt=""/>
+                                                    <p class="lL">住址证明</p>
+                                                    <a href="javascript:;">查看</a>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/icon-shouru_12.png" alt=""/>
+                                                    <p class="lL">收入证明</p>
+                                                    <a href="javascript:;">查看</a>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/icon-jingying_18.png" alt=""/>
+                                                    <p class="lL">经营地址证明</p>
+                                                    <a href="javascript:;">查看</a>
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li class="main lendInfor">
+                                <table>
+                                    <tr>
+                                        <th>期数</th>
+                                        <th>本金（元）</th>
+                                        <th>收益（元）</th>
+                                        <th>总额（元）</th>
+                                    </tr>
+                                    <tr>
+                                        <td>第一期</td>
+                                        <td>237824.00</td>
+                                        <td>2828.90</td>
+                                        <td>237824.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>第二期</td>
+                                        <td>237824.00</td>
+                                        <td>2828.90</td>
+                                        <td>237824.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>第三期</td>
+                                        <td>237824.00</td>
+                                        <td>2828.90</td>
+                                        <td>237824.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>第四期</td>
+                                        <td>237824.00</td>
+                                        <td>2828.90</td>
+                                        <td>237824.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>第五期</td>
+                                        <td>237824.00</td>
+                                        <td>2828.90</td>
+                                        <td>237824.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>第六期</td>
+                                        <td>237824.00</td>
+                                        <td>2828.90</td>
+                                        <td>237824.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>第七期</td>
+                                        <td>237824.00</td>
+                                        <td>2828.90</td>
+                                        <td>237824.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>第八期</td>
+                                        <td>237824.00</td>
+                                        <td>2828.90</td>
+                                        <td>237824.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>第九期</td>
+                                        <td>237824.00</td>
+                                        <td>2828.90</td>
+                                        <td>237824.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>第十期</td>
+                                        <td>237824.00</td>
+                                        <td>2828.90</td>
+                                        <td>237824.00</td>
+                                    </tr>
+                                </table>
+                                    <div class="iconPage">
+                                        <span><a href="javascript:;"> < </a></span>
+                                        <span class="on">4</span>
+                                        <span>5</span>
+                                        <span>6</span>
+                                        <span>7</span>
+                                        <span>8</span>
+                                        <span><a href="javascript:;"> > </a></span>
+                                        <span class="marL30">第</span>
+                                        <input class="number"/>
+                                        <span class="go">前往</span>
+                                        第5/12页
+                                    </div>
+
+                            </li>
+                            <li class="main lendInfor">
+                                <table>
+                                    <tr>
+                                        <th>序号</th>
+                                        <th>出借人</th>
+                                        <th>金额（元）</th>
+                                        <th>时间</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>李**</td>
+                                        <td>237824.00</td>
+                                        <td>2016-01-11  13:00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>李**</td>
+                                        <td>237824.00</td>
+                                        <td>2016-01-11  13:00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>李**</td>
+                                        <td>237824.00</td>
+                                        <td>2016-01-11  13:00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>李**</td>
+                                        <td>237824.00</td>
+                                        <td>2016-01-11  13:00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>李**</td>
+                                        <td>237824.00</td>
+                                        <td>2016-01-11  13:00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>李**</td>
+                                        <td>237824.00</td>
+                                        <td>2016-01-11  13:00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>李**</td>
+                                        <td>237824.00</td>
+                                        <td>2016-01-11  13:00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>李**</td>
+                                        <td>237824.00</td>
+                                        <td>2016-01-11  13:00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>李**</td>
+                                        <td>237824.00</td>
+                                        <td>2016-01-11  13:00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>李**</td>
+                                        <td>237824.00</td>
+                                        <td>2016-01-11  13:00:00</td>
+                                    </tr>
+                                </table>
+                                <div class="iconPage">
+                                    <span><a href="javascript:;"> < </a></span>
+                                    <span class="on">4</span>
+                                    <span>5</span>
+                                    <span>6</span>
+                                    <span>7</span>
+                                    <span>8</span>
+                                    <span><a href="javascript:;"> > </a></span>
+                                    <span class="marL30">第</span>
+                                    <input class="number"/>
+                                    <span class="go">前往</span>
+                                    第5/12页
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="conterRight rR clearfix">
+                <div class="hotRecommed">
+                        <h3>热门推荐 <a class="rR" href="javascript:;">更多</a></h3>
+                        <dl>
+                            <dt>普享标16100800001</dt>
+                            <dd class="rateNumber">9.78<span class="parcent">%</span></dd>
+                            <dd class="one">出借年化利率</dd>
+                            <dd class="two"><span class="lL">出借进度：</span><span class="rR">76%</span></dd>
+                            <dd class="three"><span class="lL">可投金额：</span><span class="rR">342,100.00元</span></dd>
+                            <dd class="four"><span class="progress"></span></dd>
+                            <a class="btn" href="javscript:;">立即出借</a>
+                        </dl>
+                  </div>
+                <div class="useProblem">
+                    <h3>常见问题 <a class="rR" href="javascript:;">更多</a></h3>
+                    <ul>
+                        <li><a href="javascript:;">• 如何投资</a></li>
+                        <li><a href="javascript:;">• 如何提现如何提现如何提现如何提...</a></li>
+                        <li><a href="javascript:;">• 测试测试测试测试 </a></li>
+                        <li><a href="javascript:;">• 余额生息2016年端午节假期安排排...</a></li>
+                        <li><a href="javascript:;">• 测试测试测试测试 </a></li>
+                    </ul>
+                </div>
+                <div class="sqErweima clearfix">
+                    <img src="./images/icon-Erweima_03.png" alt=""/>
+                    <p class="n1">扫描二维码</p>
+                    <p class="n2">手机投资更健康</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    <!--center-->
+    <!-- footer开始-->
+    <div class="footer">
+        <div class="bottomInfor">
+            <div class="btoLeft lL">
+                <ul>
+                    <li>
+                        <dl>
+                            <dt><a href="">关于我们</a></dt>
+                            <dd><a href="">公司简介</a></dd>
+                            <dd><a href="">媒体报道</a></dd>
+                            <dd><a href="">招贤纳士</a></dd>
+                            <dd><a href="">联系我们</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="">关于我们</a></dt>
+                            <dd><a href="">公司简介</a></dd>
+                            <dd><a href="">媒体报道</a></dd>
+                            <dd><a href="">招贤纳士</a></dd>
+                            <dd><a href="">联系我们</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-center lL">
+                <div class="hzPhone"></div>
+                <div class="telephoneNumber"></div>
+                <p>服务时间：09:00-18:00</p>
+            </div>
+            <div class="btoRight rR">
+                <ul>
+                    <li>
+                        <img src="./images/chat.jpg" alt=""/>
+                        <p class="one">官方微信</p>
+                    </li>
+                    <li>
+                        <img src="./images/shareicon.jpg" alt=""/>
+                        <p class="two">手机客户端</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-btm">
+            <div class="copy-inner">
+                <p class="copy-font">Copyright©汇中利通投资管理（北京）有限公司</p>
+                <p>京ICP备160960 | 京公安网备11010502030725号 | 京ICP备15039870 </p>
+                <p class="specialCopy">号网贷有风险  出借需谨慎 预期收益不等于实际收益</p>
+                <p class="copy-icon">
+                    <a href=""><img src="images/copyicon2.png" alt=""></a>
+                    <a href=""><img src="images/copyicon1jpg" alt=""></a>
+                    <a href=""><img src="images/copyicon3.jpg" alt=""></a>
+                    <a href=""><img src="images/copyicon4.jpg" alt=""></a>
+                </p>
+            </div>
+        </div>
+        <!--footer-->
+    </div>
+    <!-- footer结束-->
+</div><!--hzAll-->
+
+<script type="text/javascript"src="js/base.js"></script>
+<script type="text/javascript" src="js/lend.js"></script>
+</body>
+</html>

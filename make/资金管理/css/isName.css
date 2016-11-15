@@ -1,0 +1,129 @@
+.jxqRight {
+  width: 860px;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  float: left;
+  overflow: hidden;
+  padding: 30px 0 0 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+}
+.jxqRight ul {
+  margin-left: 2px ;
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+.jxqRight ul li {
+  color: #999999;
+  float: left;
+}
+.jxqRight .rightBox {
+  margin-right: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+.jxqRight .rightBox .renzheng {
+  margin: 30px 0  63px 10px;
+  position: relative;
+}
+.jxqRight .rightBox .renzheng h3 {
+  font-weight: 100;
+  font-size: 16px;
+  color: #666666;
+}
+.jxqRight .rightBox .renzheng h3 span {
+  font-size: 14px;
+  color: #999999;
+  margin-top: 4px;
+}
+.jxqRight .rightBox .renzheng .neirong {
+  margin: 32px 0 40px 45px;
+}
+.jxqRight .rightBox .renzheng .neirong li {
+  display: block;
+  line-height: 40px;
+  position: relative;
+}
+.jxqRight .rightBox .renzheng .neirong li em {
+  width: 126px;
+  height: 40px;
+  line-height: 40px;
+  color: #666666;
+  text-align: end;
+  font-style: normal;
+  margin-right: 10px;
+  display: block;
+  float: left;
+}
+.ka{
+	width: 133px;
+  height: 40px;
+  line-height: 40px;
+  color: #666666;
+  text-align: end;
+  font-style: normal;
+  display: block;
+  float: left;
+  margin-top: 6px;
+}
+.jxqRight .rightBox .renzheng .neirong  .kong input {
+  width: 355px;
+  height: 40px;
+  padding-left: 12px;
+  border: 1px solid #dddddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #cccccc;
+}
+.jxqRight .rightBox .renzheng .neirong li p{
+	height: 20px;
+	font-size: 10px;
+	padding-left: 30px;
+	background: url(../images/bank-error_03.png) no-repeat 5px center;
+	color: #ff4200;
+	margin-top: 5px;
+	line-height: 20px;
+	margin-left: 135px;
+	-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.jxqRight .rightBox .renzheng .neirong li span {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  height: 28px;
+  line-height: 28px;
+}
+.jxqRight .rightBox .renzheng .neirong li span a {
+  margin-left: 10px;
+  color: #034ca0;
+}
+.jxqRight .rightBox .renzheng .neirong li button {
+  margin-left: 253px;
+  margin-top: 30px;
+  border: none;
+  outline: hidden;
+  width: 150px;
+  height: 40px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: #34c5ff;
+  color: #FFFFFF;
+}
+
+.dian{
+	font-style: normal;
+	color: #ff5a70;
+	position: absolute;
+	left: 80px;
+	top: -2px;
+	width: 2px;
+	height: 2px;
+	display: block;
+}

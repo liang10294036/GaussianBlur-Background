@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="wap-font-scale" content="no">
+<meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"/>
+<meta name="viewport" content="target-densitydpi=320,width=750,user-scalable=no">
+<title>2016双十一活动</title>
+<link rel="stylesheet" href="css/active.css">
+<script src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $.ajax({
+        type:'POST',
+        contentType: "application/x-www-form-urlencoded",
+        url:'http://www.hzdjr.com/activity/Double11Activity/getInvestAmt/aa.js',
+        async: false,
+        dataType:"json",
+        success: function(data){
+            $('#turnover').html(data);
+        }
+    })
+})
+</script>
+</head>
+<body>
+<div class="wrap">
+     <div class="banner"><img src="images/banner.jpg" width="750" height="333"></div>
+     <div class="synopsis" style="padding-bottom:44px;">
+         <h3><img src="images/gross-title.png" width="353" height="60"></h3>
+         <div class="sum">
+            <div style="width:100%;height:87px;margin:0 auto;background:url(images/riqi.jpg) no-repeat center center"></div>
+           <p class="date"><span class="s1">活动期间内平台交易金额：</span><span class="s2" id="turnover"></span><span class="s3">元</span></p>
+         </div>
+  </div>
+     <!--<div class="synopsis" style="padding-bottom:44px;">
+         <h3><img src="images/gross-title.png" width="443" height="60"></h3>
+         <div class="sum">
+            <p class="number2"><span id="turnover"></span><span class="yuan">元</span></p>
+            <p class="date">11月11日－11月13日平台交易总量</p>
+         </div>
+  </div>-->
+<div class="synopsis">
+         <h3><img src="images/synopsis-title.png" width="353" height="60"></h3>
+         <p>又到一年剁手季，千万件商品眼花缭乱，东家看看很喜欢，西家看看也想买，又怕狂欢之后，下月吃土，怎么办？没关系，来汇中大金融，"存钱"购物两不误，收益一分不少，还有30万元现金红包奖励，如此豪礼，还不快来行动！</p>
+     </div>
+  <div class="rule">
+        <h3><img src="images/rule-title.png" width="353" height="60"></h3>
+        
+        <div class="awardBox">
+             <div class="money" style="margin-top:10px;">
+                 <div class="number">30<span>万元</span></div>
+                 <div class="explainRule">现金红包规则</div>
+             </div>
+             <p>活动期间内，根据用户成功出借的金额，在平台总交易金额中所占的比例，并按此比值领取对应的"现金红包奖励"</p>
+             <div class="c1" style="padding:0px 45px 15px 192px;">用户"现金红包奖励"=用户成功出借金额/平台交易金额*30万元。</div>
+        </div>
+  </div>
+<div class="explain">
+       <h3><img src="images/explain-title.png" width="353" height="60"></h3>
+       <table width="100%" border="0">
+  <tr>
+    <td width="55" align="center" valign="middle"><b>1</b></td>
+    <td>2016年11月21日前，计算并发放用户所获得"现金红包奖励"金额；</td>
+  </tr>
+  <tr>
+    <td width="55" align="center" valign="middle"><b>2</b></td>
+    <td>"现金红包奖励"金额，精确到分，向上取整发放；</td>
+  </tr>
+  <tr>
+    <td width="55" align="center" valign="middle"><b>3</b></td>
+    <td>"现金红包奖励"，将根据最终的成功交易记录进行核算，出借失败或提前赎回不参与任何活动；</td>
+  </tr>
+  <tr>
+    <td width="55" align="center" valign="middle"><b>4</b></td>
+    <td>"现金红包奖励"金额，将发放至用户汇中大金融平台账户；</td>
+  </tr>
+    <tr>
+    <td width="55" align="center" valign="middle"><b>5</b></td>
+    <td>本活动最终解释权，在法律允许的范围内，归汇中大金融所有，<span class="c1">客户服务热线：400-833-9921</span></td>
+  </tr>
+</table>
+
+  </div>
+    
+</div>
+</body>
+</html>

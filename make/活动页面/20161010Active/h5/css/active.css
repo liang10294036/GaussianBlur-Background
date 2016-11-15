@@ -1,0 +1,171 @@
+@charset "utf-8";
+/*title部分*/
+.wrap{
+    height: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    min-height:100%;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+.activeTit{
+    width: 100%;
+    height: 88px;
+    background: #ff7c0d;
+}
+.activeTit h3{
+    width: 94%;
+    font-size: 34px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 88px;
+    font-weight: normal;
+    padding: 0 3%;
+}
+.activeTit h3 a{
+    display: inline-block;
+    width: 21px;
+    height: 88px;
+    float: left;
+    background: url("../images/fanhui_03.png") no-repeat center;
+}
+.addressAct h3{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    background: url("../images/redTitle_03.png") no-repeat center bottom;
+}
+.activeContent{
+    width: 100%;
+    height: 100%;
+}
+.showImg{
+    width: 60%;
+    height: 45%;
+    margin: 0 auto;
+    padding-top: 40%;
+    /*padding-bottom: 47%;*/
+}
+.showImg img{
+    width: 100%;
+    height: 100%;
+}
+.showImg > p{
+    font-size: 28px;
+    color: #e54a62;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+.showImg .faTime{
+    font-size: 24px;
+    color: #999999;
+    line-height: 44px;
+}
+.showImg .weiZj{
+    color: #999999
+}
+.weiWinning img{
+    display: block;
+    width: 80%;
+    height: 80%;
+    padding-top: 40%;
+    margin: 0 auto
+}
+
+.addressAct{
+    width: 96%;
+    padding: 0 2%;
+}
+.addressAct ul{
+    width: 94%;
+    position: relative;
+    margin-top: 102px;
+    background: #ffe6ce;
+    padding: 3% 3% 5%;
+}
+.addressAct ul h3{
+    position: absolute;
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 120px;
+    font-weight: normal;
+    top: -16%;
+    left: 0%
+}
+.addressAct ul li{
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 1px solid #fbcebd;
+    font-size: 22px;
+    color: #666666;
+}
+.addressAct ul li:first-child{
+    padding-left: 5px;
+}
+.addressAct ul li span{
+    width: 20%;
+    height: 90px;
+    display: inline-block;
+}
+.addressAct ul li span i{
+    display: inline-block;
+    height: 90px;
+    width: 14px;
+    line-height: 90px;
+    color: #e84e66;
+}
+.addressAct ul li input,.addressAct ul li select{
+    display: inline-block;
+    width: 75%;
+    height: 90px;
+    line-height: 90px;
+    font-size: 22px;
+    background: #ffe6ce;
+    padding-left: 2%;
+    color: #666666;
+    outline: none;
+    border: none;
+}
+.addressAct ul li span.right{
+    display: inline-block;
+    width: 75%;
+    height: 90px;
+    line-height: 90px;
+    font-size: 22px;
+    background: #ffe6ce;
+    padding-left: 2%;
+    color: #666666;
+}
+.addressAct .submit{
+    padding-top: 40px;
+}
+.addressAct .submit input{
+    display: block;
+    width: 420px;
+    height: 64px;
+    border: none;
+    font-size: 30px;
+    color: #ffffff;
+    background: #ff7c00;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.addressAct .wramError{
+    font-size: 20px;
+    padding-left: 30px;
+    color: #cf2c26;
+    height: 29px;
+    line-height: 29px;
+    background: url("../images/phoneNumber-error.png") no-repeat 0px 4px;
+}
+.actBottom{
+    text-align: center;
+    color: #666666;
+    font-size: 20px;
+    line-height: 54px;
+}

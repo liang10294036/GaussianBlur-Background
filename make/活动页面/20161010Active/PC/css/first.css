@@ -1,0 +1,152 @@
+.c-right .img {
+  width: 225px;
+  height: 175px;
+  margin: 27px auto;
+  border: 1px solid #fab2b0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: url(../img/PC-10_04_03.png) no-repeat center center;
+}
+.c-right h3 {
+  margin-left: 172px;
+  font-size: 22px;
+  color: #444444;
+  margin-bottom: 50px;
+}
+.c-right h3 em {
+  font-style: normal;
+  color: #f05453;
+}
+.c-right h6 {
+  margin-left: 172px;
+  font-size: 16px;
+  color: #666666;
+  position: relative;
+  margin-bottom: 32px;
+}
+.c-right h6 span {
+  color: #fc5c72;
+  position: absolute;
+  top: 3px;
+  left: -13px;
+}
+.c-right ul {
+  margin-left: 172px;
+}
+.c-right ul li {
+  font-size: 14px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.c-right ul li span {
+  width: 85px;
+  height: 36px;
+  line-height: 36px;
+  text-align: end;
+  color: #666666;
+  margin-right: 10px;
+  float: left;
+}
+.c-right ul li input {
+  width: 320px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding-left: 20px;
+  float: left;
+}
+.c-right ul li select {
+  width: 145px;
+  height: 40px;
+  margin-right: 10px;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding-left: 20px;
+  float: left;
+}
+.c-right ul li select option {
+  font-size: 14px;
+  color: #cbcbcb;
+}
+.c-right ul li p {
+  margin-top: 10px;
+  padding-left: 25px;
+  float: left;
+  margin-left: 95px;
+  color: #fc441e;
+  font-size: 14px;
+  font-weight: 400;
+  background: url(../img/images/pc－获奖结果4_07.png) no-repeat left center;
+}
+.c-right a {
+  width: 150px;
+  height: 40px;
+  display: block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: #48c7fc;
+  color: #ffffff;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 328px;
+  margin-bottom: -10px;
+}
+.xieyiBj {
+  background: #000000;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+.xieyi {
+  position: fixed;
+  z-index: 11;
+  left: 35%;
+  top: 10%;
+  width: 475px;
+  height: 275px;
+  background: #FFFFFF;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.xieyi .box {
+  text-align: center;
+  width: 475px;
+  height: 217px;
+}
+.xieyi .box span {
+  margin: 60px 0;
+  display: block;
+  font-size: 18px;
+  color: #585858;
+}
+.xieyi .box button {
+  width: 170px;
+  height: 40px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: #51c3f5;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.xieyi h3 {
+  background: #009ddb;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24px;
+}

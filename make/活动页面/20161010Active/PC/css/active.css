@@ -1,0 +1,274 @@
+.banner {
+  height: 330px;
+  background: url(../img/banner.png) no-repeat center center;
+}
+.banner .relative {
+  width: 1000px;
+  height: 1px;
+  margin: 0 auto;
+  position: relative;
+}
+.banner .relative .search {
+  position: absolute;
+  width: 235px;
+  height: 55px;
+  padding-left: 125px;
+  padding-top: 15px;
+  color: #e03a31;
+  font-size: 25px;
+  top: 224px;
+  left: -20px;
+  background: url(../img/chaxun.png) no-repeat center center;
+}
+.centerer {
+  background: url(../img/background1.png) repeat;
+}
+.center {
+  width: 870px;
+  margin: 0 auto;
+}
+.center .first .top {
+  position: relative;
+  font-size: 32px;
+  color: #e34949;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 68px;
+  margin-bottom: 40px;
+}
+.center .first .top .topLeft,
+.center .first .top .topRight {
+  width: 68px;
+  height: 1px;
+  background: #e34949;
+  position: absolute;
+  top: 90px;
+}
+.center .first .top .topLeft {
+  left: 290px;
+}
+.center .first .top .topRight {
+  left: 510px;
+}
+.center .first .first1 {
+  overflow: hidden;
+}
+.center .first .first1 li {
+  float: left;
+  width: 250px;
+  height: 95px;
+  position: relative;
+  text-align: center;
+  padding-top: 85px;
+  color: #ffd67a;
+  font-size: 20px;
+}
+.center .first .first1 li.left {
+  margin-left: 15px;
+}
+.center .first .first1 li.right {
+  margin-right: 50px;
+}
+.center .first .first1 li p {
+  width: 247px ;
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 132px;
+  left: 0;
+  color: #e34949;
+}
+.center .first .first2 {
+  background: #ffecd3;
+  border: 1px solid #f8938d;
+  padding-top: 12px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  padding-bottom: 12px;
+}
+.center .first .first2 li {
+  float: left;
+  width: 245px;
+  height: 34px;
+  position: relative;
+  text-align: center;
+  padding-top: 176px;
+  color: #113559;
+  font-size: 19px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #f8938d;
+}
+.center .first .first2 li.left {
+  margin-left: 15px;
+}
+.center .first .first2 li.right {
+  margin-right: 50px;
+}
+.center .first .third {
+  width: 878px;
+  position: relative;
+  text-align: center;
+  height: 310px;
+  margin-top: 62px;
+  padding: 55px 0 30px;
+  background: url(../img/biaoti.png) no-repeat center center;
+}
+.center .first .third h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.center .first .third h6 {
+  margin: 38px 0 28px;
+  color: #f3524f;
+  font-size: 22px;
+  font-weight: 200;
+  height: 46px;
+  background: url(../img/down.png) no-repeat bottom center;
+}
+.center .first .third ul {
+  width: 825px;
+  text-align: start;
+  margin-left: 50px;
+  overflow: hidden;
+}
+.center .first .third ul li {
+  float: left;
+  height: 50px;
+  width: 143px;
+  color: #e34949;
+  font-size: 20px;
+  margin-right: 22px;
+}
+.center .first .third ul li span {
+  margin: 22px;
+}
+.center .first .third p {
+  text-align: start;
+  width: 850px;
+  margin-left: 50px;
+  padding-left: 20px;
+  color: #e34949;
+  font-size: 16px;
+  background: url(../img/smalldian.png) no-repeat left center;
+}
+.center .second .top {
+  position: relative;
+  font-size: 32px;
+  color: #e34949;
+  font-weight: 400;
+  text-align: center;
+  margin: 90px 0 35px;
+}
+.center .second .top .topLeft,
+.center .second .top .topRight {
+  width: 68px;
+  height: 1px;
+  background: #e34949;
+  position: absolute;
+  top: 22px;
+}
+.center .second .top .topLeft {
+  left: 290px;
+}
+.center .second .top .topRight {
+  left: 510px;
+}
+.center .second .neirong {
+  padding-bottom: 30px;
+  position: relative;
+  background: #ffe6c9;
+  overflow: hidden;
+  -webkit-border-radius: 0 0 40px 40px;
+  -moz-border-radius: 0 0 40px 40px;
+  border-radius: 0 0 40px 40px;
+}
+.center .second .neirong li {
+  text-align: center;
+  float: left;
+  width: 290px;
+  height: 50px;
+  line-height: 50px;
+  color: #e34949;
+  font-size: 18px;
+}
+.center .second .neirong li.top1 {
+  background: #f3524f;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.center .second .neirong .dingwei {
+  width: 15px;
+  height: 310px;
+  position: absolute;
+  top: 65px;
+  left: 33px;
+  background: url(../img/shu.png) no-repeat center center;
+  background-size: 15px 310px;
+}
+.center .thirdd {
+  padding-bottom: 80px;
+}
+.center .thirdd .top {
+  position: relative;
+  font-size: 32px;
+  color: #e34949;
+  font-weight: 400;
+  text-align: center;
+  margin: 88px 0 45px;
+}
+.center .thirdd .top .topLeft,
+.center .thirdd .top .topRight {
+  width: 68px;
+  height: 1px;
+  background: #e34949;
+  position: absolute;
+  top: 22px;
+}
+.center .thirdd .top .topLeft {
+  left: 290px;
+}
+.center .thirdd .top .topRight {
+  left: 510px;
+}
+.center .thirdd p {
+  height: 50px;
+  color: #e34949;
+  font-size: 18px;
+  padding-left: 25px;
+  background: url(../img/dian.png) no-repeat 10px 8px;
+}
+.centerEnd {
+  padding: 40px 0 50px;
+  background: url(../img/background2.png) repeat;
+}
+.centerEnd .EndCenter {
+  width: 510px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.centerEnd .EndCenter .EWM {
+  float: left;
+  margin-right: 60px;
+  width: 150px;
+  height: 150px;
+  background: url(../img/images/erweima.png) no-repeat center center;
+}
+.centerEnd .EndCenter .wenzi {
+  width: 300px;
+  height: 70px;
+  font-style: italic;
+  float: left;
+  color: #333333;
+  font-size: 24px;
+  margin-top: 40px;
+}
+.centerEnd .EndCenter .wenzi span {
+  color: #777777;
+  font-size: 21px;
+  margin-left: 5px;
+}

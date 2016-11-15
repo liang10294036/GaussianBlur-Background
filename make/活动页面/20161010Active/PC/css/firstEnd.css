@@ -1,0 +1,22 @@
+.c-right .have {
+  margin-left: 305px;
+}
+.c-right .have li {
+  font-size: 16px;
+  color: #444444;
+  margin-bottom: 35px;
+}
+.c-right .have li em {
+  color: #fc5c72;
+}
+.c-right .have li span {
+  color: #999999;
+  line-height: none;
+  float: none;
+  margin-right: 23px;
+}
+.c-right .have li i {
+  color: #666666;
+  padding-left: 10px;
+  background: url(../img/jia.png) no-repeat left center;
+}
