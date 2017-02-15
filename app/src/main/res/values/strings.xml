@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GaussianBlur</string>
+    <string name="integration_format_teo">%1$s\n+%2$d陌宝\n</string>
+    <string name="app_program_enjoy_format">有%1$s人刚刚加入了应用</string>
+    <string name="app_game_enjoy_format">有%1$s人刚刚加入了游戏</string>
+    <string name="double_format_teo">%1$s\nX%2$d倍\n</string>
+</resources>

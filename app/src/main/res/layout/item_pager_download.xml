@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.blur.self.widget.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_circle_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_heightPercent="40%">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/facebook_movie_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            fresco:actualImageScaleType="fitXY"
+            fresco:placeholderImageScaleType="fitXY"
+            fresco:roundedCornerRadius="4dp"
+            fresco:roundTopLeft="true"
+            fresco:roundTopRight="true" />
+
+        <TextView
+            android:id="@+id/tv_res_shared"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_circle_round_7f000000"
+            android:drawableLeft="@mipmap/ic_shared"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="分享"
+            android:textColor="@color/color_white" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_res_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_3c4f5e"
+        android:textSize="22sp"
+        app:layout_heightPercent="8%" />
+
+    <TextView
+        android:id="@+id/tv_res_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@color/color_6b8ca6"
+        android:textSize="13sp"
+        app:layout_heightPercent="5%" />
+
+
+    <include
+        layout="@layout/link_integration_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        app:layout_heightPercent="25%" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ProgressBar
+            android:id="@+id/iv_download_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progressbar_download_drawable" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="下载"
+            android:textColor="@color/color_white"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_res_enjoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_game_enjoy_format"
+        android:textColor="@color/color_adadad"
+        android:textSize="12sp"
+        app:layout_heightPercent="10%" />
+
+
+</cn.blur.self.widget.percent.PercentLinearLayout>

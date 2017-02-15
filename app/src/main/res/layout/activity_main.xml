@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_f5f5f5"
+    android:orientation="vertical">
+
+    <!-- 高斯模糊 背景 -->
+    <FrameLayout
+        android:id="@+id/linear_frame_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_1A000000"/>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:clipChildren="false"
+        android:orientation="vertical">
+
+        <cn.blur.self.widget.LinearDotTransform
+            android:id="@+id/linear_dot_transform"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="20dp"
+            app:layout_heightPercent="8%" />
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_resource"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tv_refresh_times"
+            android:layout_below="@+id/linear_dot_transform"
+            android:layout_gravity="center"
+            app:layout_heightPercent="79%"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+        </android.support.v4.view.ViewPager>
+
+        <TextView
+            android:id="@+id/tv_refresh_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="5dp"
+            android:drawableRight="@mipmap/ic_refresh"
+            android:text="换一批"
+            android:gravity="center"
+            app:layout_heightPercent="13%"
+            android:textColor="@color/color_white"
+            android:textSize="15sp" />
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+</RelativeLayout>
+
