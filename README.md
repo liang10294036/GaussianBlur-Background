@@ -1,4 +1,5 @@
-# 高斯模糊背景项目
+### 高斯模糊背景项目
+![](https://raw.githubusercontent.com/liang10294036/GaussianBlur-Background/master/picture.png)
 
 ####描述:
 1.	借鉴blur算法实现高斯模糊背景
